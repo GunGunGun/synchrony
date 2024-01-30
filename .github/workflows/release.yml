@@ -25,5 +25,6 @@ jobs:
           files: |
             dist/synchrony-*.js
             dist/deobfuscate.js
+            tag_name: all
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
